@@ -1,0 +1,246 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+    <script src="https://kit.fontawesome.com/6bf620a9e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container" style="color: aquamarine;"> 
+        <nav>
+            <img src="https://cdn.dribbble.com/users/2592071/screenshots/7327591/logo-artboard_2_4x_4x.png"  class="logo" alt="">
+             
+            <ul id="sidemenu">
+                <li><a href="#header">  Home </a> </li>
+                <li><a href="#about">  About </a> </li>
+                <li><a href="#services">  Services</a> </li>
+
+                <li><a href="#portfolio">  Portfolio </a> </li>
+ 
+                <li><a href="#contact">  Contact </a> </li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+
+ 
+
+ 
+
+             </ul>
+             <i class="fas fa-bars" onclick="openmenu()"></i>
+            
+            
+        </nav> 
+        <div class="header-text">
+            <p> Web Developer</p>
+            <h1>Hey, I'm <span>Roshan sah</span>,<br>Full stack web-Developer  </h1>
+        </div>
+    </div> 
+ 
+</div>
+ <!-- About section  -->
+ <div id="about">
+    <div class="contaiiner">
+        <div class="row">
+            <div class="about-col-1">
+                <!-- <img src="Img/313035829_2478231928983975_1456933051450566425_n.jpg" alt=""> -->
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Hey,I am Roshan kumar sah, a passionate web-Developer seeking to gain knowledge from every field </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('Skills')"> Skills</p>
+                   
+                    <p class="tab-links"  onclick="opentab('Education')"> Education</p>
+                    <p class="tab-links"  onclick="opentab('Hobby')"> Hobby</p>
+                </div> 
+                <div class="tab-contents active-tab" id="Skills"> 
+                    <ul>
+                        <li><span>Web development</span> <br> Web/App development</li>
+                        <li><span>Front-end development</span> <br> React js</li>
+                        <li><span>Backend development</span> <br> Express framework <br> Mongodb</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education"> 
+                    <ul> 
+                        <!-- <li><span>2016</span> <br> </li> -->
+                        <li><span>2018</span> <br> college from Capital seconndary school ,kathmandu,Nepal</li>
+                        <li><span> 2020-2024</span> <br> Btech from KIIT Bhubaneshwar,odisha </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Hobby"> 
+                    <ul>
+                        <li> <span>Hobby</span> <Br>Cricket<br> <br> Coding</br> <br> Video editing </br></li>
+                        
+                    </ul>
+                </div>
+                
+                        
+            </div>
+        </div>
+    </div>
+
+ </div> 
+ <!-- services  -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My services </h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <!-- <i class="fa-solid fa-code"></i> -->
+                <h2 class="web"> Web development</h2>
+                <p>Web development refers to the process of creating websites or web applications for the Internet. It involves the design, development, and maintenance of websites using various programming languages, frameworks, and tools. Web developers use their technical skills to build functional and visually appealing websites that meet the specific needs of businesses, organizations, or individuals.</p>
+
+                <a href="">Learn More</a> 
+            </div>
+            <div>
+                <i class="fa-regular fa-crop"></i>
+                <h2> React js framework</h2>
+                <p>
+                    React, also known as React.js or ReactJS, is a JavaScript library for building user interfaces. It was developed by Facebook and is widely used for creating interactive and dynamic web applications. React follows a component-based approach, where UIs are broken down into reusable components that can be composed together to form complex user interfaces.</p>
+
+                <a href="">Learn More</a>
+            </div> 
+            <div> 
+                <i class="fa-brands fa-app-store"></i> 
+                <h2> Backend development</h2>
+                <p>Backend development refers to the development of the server-side components of a web application or software system. It involves the creation and management of the underlying infrastructure, databases, and application logic that support the functioning of the application.</p>
+                <a href="">Learn More</a>
+            </div>
+
+        </div>
+    </div> 
+ </div>
+
+ <!-- //Portfolio  -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                
+                <img src="https://th.bing.com/th/id/OIP.7hlWmVVwifIgJgcuqS3jRgHaE8?w=264&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="">
+                <div class="layer">
+                    <h3> Travel app</h3>
+                    <p> A Travel app using Html,css,javascript and backend express framework whose data is stored in MongoDb .</p>
+                    <a href="https://github.com/sahroshan64/DynamicWebsite.github.io.git"><i class="fa-solid fa-link"> </i></a>
+
+
+                </div> 
+            </div>
+            <div class="work"> 
+                
+                <img src="https://th.bing.com/th/id/OIP.zVxskUBaeAxjeJTzvjWx5QHaEK?pid=ImgDet&rs=1" style="width: 120%;" alt="">
+                <div class="layer">
+                    <h3> E-commerce website</h3>
+                    <p> A ecommerce website using React js framework .</p>
+                    <a href="https://649b09225170cd099bc39068--jocular-quokka-da0720.netlify.app/"><i class="fa-solid fa-link"> </i></a>
+
+
+                </div> 
+            </div>
+            <div class="work">
+                <img src="https://asperbrothers.com/wp-content/uploads/2019/10/Backend-Web-Development-768x423.jpg" style="max-width: 80%; height: 100%;" alt="">
+                <div class="layer">
+                    <h3> Movie app  </h3>
+                    <p> A Movie app using Reactjs framework, getting data from a real API and saving to local storage
+                        .</p>
+                    <a href="https://64b7eddf1872d11944a344e2--musical-sfogliatella-a6e54a.netlify.app/"><i class="fa-solid fa-link"> </i></a>
+
+
+                </div> 
+            </div>
+
+        </div> 
+        <a href="#" class="btn"> See more</a>
+    </div>
+</div>
+<!-- Contact us   -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Conatct Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>Sahroshan64@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>9934175841</p>
+                <div class="social-icons">
+                    <a href="www.fb.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/roshan-kumar-sah-9ab746258/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/sahroshan64"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+                <a href="Img/cv.pdf" download class="btn btn2"> Download CV</a>
+            
+            </div> 
+            <div class="contact-right"> 
+                <form class="submit-to-google-sheet" method="post" action="https://script.google.com/macros/s/AKfycbwTkQ5lmg4RMax0t7KfQ-adTuBapiOQsKuJ3rHOaIryNR2vb-ahe7N6bQ6OuDCW1Iuh/exec">
+                    <input type="text" name="Name" placeholder="Your name" required id="">
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Messege" id="" cols="30" rows="10" placeholder="your messege"></textarea>
+                    <button type="submit" class="btn btn2"> Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Roshan <i class="fa-solid fa-heart"></i> </p>
+    </div> 
+</div>
+ 
+
+ 
+ <script> 
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents"); 
+    // var tablinks = document.getElementsByClassName("tab-links");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");// displaying the underline colour
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+ <script>
+    var sidemeu=document.getElementById('sidemenu');
+    function openmenu(){
+        sidemeu.style.right="0";
+
+
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+        
+
+    }
+  
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwTkQ5lmg4RMax0t7KfQ-adTuBapiOQsKuJ3rHOaIryNR2vb-ahe7N6bQ6OuDCW1Iuh/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg") 
+   
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Messege sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000) 
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+       
+</body>
+</html> 
